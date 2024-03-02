@@ -1,4 +1,4 @@
-### My name is Satria👋
+### I'm Satria👋
 
 
 ### My Stats:
