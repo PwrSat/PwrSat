@@ -6,9 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link rel="stylesheet" href="other/css/style.css">
+
     <!-- bootstrap -->
     <link rel="stylesheet" href="other/bootstrap/css/bootstrap.min.css">
 
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Micro+5&display=swap" rel="stylesheet">
 
 </head>
 
@@ -25,10 +33,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">HOME</a>
+                        <a class="nav-link" aria-current="page" href="#abouttt">ABOUT ME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">ABOUT ME</a>
+                        <a class="nav-link" aria-current="page" href="#skills">SKILL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#mydataa">MY DATA</a>
                     </li>
                 </ul>
             </div>
@@ -41,7 +52,7 @@
             <img src="other/image/usu_logo.png" alt="" class="img-fluid" style="max-width: 200px;">
         </div>
         <div class="col text-center pt-5">
-            <h1>Hi! I'm Satria! I m a student of University of Sumatera Utara.</h1>
+            <h1 style="font-family: montserrat;">Hi! I'm Satria! I m a student of University of Sumatera Utara.</h1>
         </div>
     </div>
 
@@ -53,7 +64,7 @@
                     <div class="pt-5">
                         <div class="pt-5">
                             <div class="col text-center pt-5">
-                                <h2 style="color: brown;">About me</h2>
+                                <h2 id="abouttt" class="section-heading text-center">About me</h2>
                             </div>
                         </div>
                     </div>
@@ -65,13 +76,13 @@
                                  ">
                     <div class="col-md-6">
                         <!-- Gambar -->
-                        <img src="other/image/me(3).jpg" style="border-radius: 10px;" alt="Your image"
-                            class="img-fluid pt-2">
+                        <img src="other/image/me(3).jpg" style="border-radius: 50%;" alt="Your image"
+                            class="img-fluid pt-5">
                         <!-- Menjadikan gambar responsif -->
                     </div>
                     <div class="col-md-6">
                         <!-- Teks -->
-                        <p>
+                        <p style="font-family: montserrat;">
                             Halo, saya Satria. Saya seorang mahasiswa di Universitas Sumatera Utara dengan minat dalam
                             teknologi dan pengembangan perangkat lunak. Saya sangat antusias dalam mempelajari hal-hal
                             baru dan mengeksplorasi berbagai bidang ilmu. Selain itu, saya juga senang berkolaborasi
@@ -79,19 +90,20 @@
                             bertekad untuk terus berkembang dan berkontribusi dalam dunia teknologi.
                         </p>
 
-                        <p>
+                        <p style="font-family: montserrat;">
                             Selain belajar tentang teknologi, saya juga menikmati kegiatan di luar ruangan. Saya percaya
                             bahwa menjaga keseimbangan antara pekerjaan dan
                             hobi sangat penting untuk kesejahteraan pribadi. Saya selalu berusaha untuk hidup seimbang
                             dan menghargai setiap momen yang saya miliki.
                         </p>
 
-                        <p>
+                        <p style="font-family: montserrat;">
                             Dalam hidup saya, saya juga sangat memperhatikan nilai-nilai seperti integritas, kerja
                             keras, dan empati. Saya percaya bahwa dengan menjadi pribadi yang jujur, tekun, dan peduli
                             terhadap sesama, kita dapat menciptakan dampak positif dalam masyarakat dan lingkungan
                             sekitar kita. Saya berharap dapat terus berkembang sebagai individu yang lebih baik dan
-                            memberikan kontribusi yang berarti bagi dunia di sekitar saya. Terima kasih telah mengunjungi halaman saya. 
+                            memberikan kontribusi yang berarti bagi dunia di sekitar saya. Terima kasih telah
+                            mengunjungi halaman saya.
                         </p>
 
                     </div>
@@ -105,6 +117,89 @@
         <div class="pt-5"></div>
     </div>
 
+    
+    <!-- data -->
+    <div id="mydataa" class="container d-block mx-auto" style="max-width:400px;">
+        <h2 class="section-heading text-center">My Data</h2>
+        <div class=" row border border-1 m-3 rounded">
+            <div class="col-4 text-center">
+                <p class="h6 m-1">
+                    Age
+                </p>
+                <p class="h1">
+                    19
+                </p>
+            </div>
+            <div class="col-4 text-center border-start border-end">
+                <p class="h6 m-1">
+                    Grade
+                </p>
+                <p class="h1">
+                    --
+                </p>
+            </div>
+            <div class="col-4 text-center">
+                <a href="https://github.com/PwrSat" style="text-decoration: none; color: inherit;"
+                    onmouseover="this.style.color='blue';" onmouseout="this.style.color='inherit';">
+                    <p class="h6 m-1">
+                        Projects
+                    </p>
+                    <p class="h1">
+                        7
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- skill -->
+    <section id="skills">
+        <div class="container">
+            <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">What do I know?</span></h6>
+            <h2 class="section-heading text-center">Skills</h2>
+            <p class="text-center muted-text mt-3 mb-4">Beberapa bahasa yang telah saya pelajari:</p>
+            <div class="row justify-content-center row-cols-2 row-cols-md-3 row-cols-lg-6 mt-4 gy-4 skills-container" data-aos="fade-up" data-aos-delay="200">
+                <div class="col">
+                    <div class="skill">
+                        <img class="skill-image" src="other/image/skills/HTML.svg" alt="HTML">
+                        <p class="skill-name">HTML</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="skill">
+                        <img class="skill-image" src="other/image/skills/CSS.svg" alt="CSS"/>
+                        <p class="skill-name">CSS</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="skill">
+                        <img class="skill-image" src="other/image/skills/JS.svg" alt="JavaScript">
+                        <p class="skill-name">JS</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="skill">
+                        <img class="skill-image" src="other/image/skills/Bootstrap.svg" alt="Bootstrap">
+                        <p class="skill-name">Bootstrap</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="skill">
+                        <img class="skill-image" src="other/image/skills/Php.svg" alt="C++">
+                        <p class="skill-name">Php</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="skill">
+                        <img class="skill-image" src="other/image/skills/MySQL.svg" alt="MySQL">
+                        <p class="skill-name">MySQL</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
     <footer class="bg-secondary bg-body-tertiary mt-5">
         <div class="container pt-5">
             <p class="blockquote-footer mb-0">Someone famous <cite title="Source Title">me probably</cite></p>
