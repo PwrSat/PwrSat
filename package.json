@@ -1,0 +1,15 @@
+{
+  "name": "pwrsat",
+  "version": "1.0.0",
+  "description": "[![My GitHub statistics](https://github-readme-stats-eight-theta.vercel.app/api?username=PwrSat&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true)](#)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./tailwind-components/style/input.css -o ./tailwind-components/style/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
